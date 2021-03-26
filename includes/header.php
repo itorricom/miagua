@@ -12,3 +12,9 @@
 </head>
 
 <body>
+
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a href="index.php" class="navabar-brand"> PHP MYSQL CRUD</a>
+    </div>
+</nav>

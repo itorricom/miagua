@@ -5,8 +5,8 @@
     '',
     'php_mysql_crud'
   );
-  if(isset($conn)){
-      echo 'DB Conectado';
-  }
+  // if(isset($conn)){
+  //     echo 'DB Conectado';
+  // }
 
   ?>
