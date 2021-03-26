@@ -10,7 +10,10 @@
         if(!$result){
             die("Insercion Fallida");
         }
-        // echo 'Guardado.....';
+        
+        $_SESSION['message']='Guardado Satisfactoriamente..';
+        $_SESSION['message_type'] = 'success';
+
         header("location: index.php");
     }
 ?>
