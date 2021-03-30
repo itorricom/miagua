@@ -36,7 +36,7 @@
                 </thead>
                 <tbody>
                     <?php 
-                        $query = "SELECT * FROM Tareas";
+                        $query = "SELECT * FROM tareas";
                         $result_tasks = mysqli_query($conn, $query);
 
                         while($row = mysqli_fetch_array($result_tasks)){ ?>
